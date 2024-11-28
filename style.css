@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: gainsboro;
+}
+
+.toproject{
+    background: orange;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.toproject h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+    color: white;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#post {
+	width: 60%;
+	padding: 8px;
+	font-size: 14px;
+	outline: none;
+	border: none;
+	border-radius: 6px;
+    cursor: pointer;
+}
+
+#update{
+    width: 60%;
+	padding: 8px;
+	font-size: 14px;
+	outline: none;
+	border: none;
+	border-radius: 6px;
+    display: none;
+    cursor: pointer;
+}
+
+.output_box {
+	border: 1px solid blue;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 10px;
+}
+
+.output_box h2{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    color:white
+}
+
+.output_box p{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 14px;
+    color:white
+}
+
+#deleteBtn {
+	border: none;
+	background: blue;
+	color: white;
+	width: 17%;
+	padding: 7px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+#Editbtn{
+	border: none;
+	background: blue;
+	color: white;
+	width: 17%;
+	padding: 7px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.button_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.toproject input {
+	width: 100%;
+	font-size: 18px;
+	padding: 6px;
+	border-radius: 6px;
+	outline: none;
+	border: none;
+}
+
+.toproject textarea {
+	width: 100%;
+	font-size: 18px;
+	padding: 6px;
+	border-radius: 6px;
+	outline: none;
+	border: none;
+	height: 66px;
+	margin: 20px 0;
+	resize: none;
+}
+
+
+#Play{
+	border: none;
+	background: blue;
+	color: white;
+	width: 17%;
+	padding: 7px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+#cap_delete{
+	border: none;
+	background: blue;
+	color: white;
+	width: 17%;
+	padding: 7px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.caption_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#caption_box h3{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    color:white;
+}
+
+
+
+#caption_box {
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 6px;
+}
